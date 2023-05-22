@@ -1,0 +1,44 @@
+.Footer_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+    background: #4BF226;
+}
+.right_footer h3 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.right_footer p {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.right_footer > button {
+    padding: 12px 20px 12px 20px;
+    background: #EF5B72;
+    color: #000;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+  }
+@media(max-width:1024px) {
+    .right_footer > h3 {
+        text-align: center;
+    }
+    .right_footer > p {
+        text-align: center;
+    }
+    .right_footer > button {
+        display: block;
+        margin: auto;
+    }
+}
+@media(max-width:480px) {
+    .right_footer > h3 {
+        font-size: 20px!important;
+    }
+    .right_footer > p {
+        font-size: 18px!important;
+    }
+}

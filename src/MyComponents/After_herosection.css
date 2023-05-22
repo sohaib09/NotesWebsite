@@ -1,0 +1,33 @@
+.container_after_herosection {
+    background: #FFD48F99;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.right_after_herosection h3 {
+    font-size: 30px;
+}
+.right_after_herosection p {
+    font-size: 20px;
+}
+@media(max-width:1024px){
+    .right_after_herosection h3 {
+        text-align: center;
+    }
+    .right_after_herosection p {
+        text-align: center;
+    }
+    .left_after_herosection > img {
+        padding-bottom: 20px;
+    }
+}
+@media(max-width:480px){
+    .right_after_herosection h3 {
+        font-family:20px!important;
+    }
+    .right_after_herosection p {
+        font-family:18px!important;
+    }
+}
